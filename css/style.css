@@ -1,7 +1,21 @@
 body {
-  background-color: darkgray;
+  background-color: lightslategrey;
+  width: 90%;
+  margin: auto;
 }
 
 h1 {
   font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+ol {
+  list-style-type: numbers;
+}
+
+ul {
+  list-style-type: circle;
 }
