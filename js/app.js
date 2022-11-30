@@ -1,12 +1,8 @@
 'use strict';
 
-// TODO: GET USERS NAME - prompt - alert greeting back to user
-
 let userName = prompt('What is your name?');
 
 alert(`Welcome to my site ${userName}! Answer the following questions with yes or no (y/n)`);
-
-// TODO: prompt with 5 yes or no questions, alert if they got the answer right or wrong
 
 let questionOne = prompt('Do I have a son?').toLowerCase();
 
@@ -48,7 +44,12 @@ if (questionFive === 'yes' || questionFive === 'y') {
   alert('As of right now that is correct!');
 }
 
-//TODO: give personalized message at the end
+// TODO: Add a 6th question that takes a numeric input by prompting user to guess a number. alert if too high or too low. 4 opportunities to guess. after 4 chances tell user correct answer.
+
+// TODO: Add a 7th question with multiple correct answers stored in an array. End after a correct answer or 6 attempts. Display all possible answers after.
+
+// TODO: Give a final score to the user.
+
 
 alert(`Thanks for participating ${userName}!`);
 
