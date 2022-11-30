@@ -57,15 +57,15 @@ let myNum = '6';
 
 let numAttempts = 4;
 
-for(let i = 0; i < numAttempts; i++) {
+for (let i = 0; i < numAttempts; i++) {
   let questionSix = prompt('What number am I thinking of?');
-  if(questionSix === myNum){
+  if (questionSix === myNum) {
     alert('Correct!');
     score++;
     break;
-  } else if(questionSix > myNum) {
+  } else if (questionSix > myNum) {
     alert('Too high!');
-  } else if(questionSix < myNum) {
+  } else if (questionSix < myNum) {
     alert('Too low!');
   }
 }
@@ -77,9 +77,9 @@ const arr = ['scary spice', 'baby spice', 'ginger spice', 'posh spice', 'sporty 
 
 let spiceAttempts = 6;
 
-for(let i = 0; i < spiceAttempts; i++) {
+for (let i = 0; i < spiceAttempts; i++) {
   let questionSeven = prompt('Name a Spice Girl').toLowerCase();
-  if(arr.indexOf(questionSeven) >= 0) {
+  if (arr.indexOf(questionSeven) >= 0) {
     alert('You really know your stuff!');
     score++;
     break;
