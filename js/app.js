@@ -68,6 +68,9 @@ for (let i = 0; i < numAttempts; i++) {
   } else if (questionSix < myNum) {
     alert('Too low!');
   }
+  if(i === 3) {
+    alert(`The correct answer was ${myNum}`);
+  }
 }
 
 
@@ -88,6 +91,7 @@ for (let i = 0; i < spiceAttempts; i++) {
   }
 }
 
+alert(`Accepted answers: ${arr}`);
 
 // TODO: Give a final score to the user.
 
