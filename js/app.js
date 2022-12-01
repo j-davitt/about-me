@@ -91,6 +91,20 @@ for (let i = 0; i < spiceAttempts; i++) {
   }
 }
 
+// Nested array example
+
+// for (let i = 0; i < 6; i++) {
+//   let questionSeven = prompt('Name a Spice Girl').toLowerCase();
+//   for (let j = 0; j < arr.length; j++) {
+//     if (questionSeven === arr[j]) {
+//       alert('You really know your stuff!');
+//       score++
+//       i = 6;
+//       break;
+//     }
+//   }
+// }
+
 alert(`Accepted answers: ${arr}`);
 
 // TODO: Give a final score to the user.
