@@ -98,7 +98,7 @@ for (let i = 0; i < spiceAttempts; i++) {
 //   for (let j = 0; j < arr.length; j++) {
 //     if (questionSeven === arr[j]) {
 //       alert('You really know your stuff!');
-//       score++
+//       score++;
 //       i = 6;
 //       break;
 //     }
