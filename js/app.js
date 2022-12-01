@@ -3,17 +3,16 @@
 let score = 0;
 
 function welcome() {
-
   let userName = prompt('What is your name?');
 
   alert(`Welcome to my site ${userName}! Answer the following questions with yes or no (y/n)`);
 
+  return userName;
 }
 
-welcome();
+let userName = welcome();
 
-function questionone() {
-
+function questionOne() {
   let questionOne = prompt('Do I have a son?').toLowerCase();
 
   if (questionOne === 'yes' || questionOne === 'y') {
@@ -22,12 +21,11 @@ function questionone() {
   } else if (questionOne === 'no' || questionOne === 'n') {
     alert('Wrong!');
   }
-
 }
 
-questionone();
+questionOne();
 
-function questiontwo() {
+function questionTwo() {
   let questionTwo = prompt('Do I have any pets?').toLowerCase();
 
   if (questionTwo === 'yes' || questionTwo === 'y') {
@@ -36,12 +34,11 @@ function questiontwo() {
   } else if (questionTwo === 'no' || questionTwo === 'n') {
     alert('Wrong! I have 2 dogs.');
   }
-
 }
 
-questiontwo();
+questionTwo();
 
-function questionthree() {
+function questionThree() {
   let questionThree = prompt('Do I have a whiskey problem, err I mean collection?').toLowerCase();
 
   if (questionThree === 'yes' || questionThree === 'y') {
@@ -50,13 +47,11 @@ function questionthree() {
   } else if (questionThree === 'no' || questionThree === 'n') {
     alert('Wrong! Onward!');
   }
-
 }
 
-questionthree();
+questionThree();
 
-function questionfour() {
-
+function questionFour() {
   let questionFour = prompt('Do I have a jet ski?').toLowerCase();
 
   if (questionFour === 'yes' || questionFour === 'y') {
@@ -65,12 +60,11 @@ function questionfour() {
     alert('Sadly, that is correct.');
     score++;
   }
-
 }
 
-questionfour();
+questionFour();
 
-function questionfive() {
+function questionFive() {
   let questionFive = prompt('Do I have a face tattoo?').toLowerCase();
 
   if (questionFive === 'yes' || questionFive === 'y') {
@@ -79,15 +73,14 @@ function questionfive() {
     alert('As of right now that is correct!');
     score++;
   }
-
 }
 
-questionfive();
+questionFive();
 
 // TODO: Add a 6th question that takes a numeric input by prompting user to guess a number. alert if too high or too low. 4 opportunities to guess. after 4 chances tell user correct answer.
 
 
-function questionsix() {
+function questionSix() {
   let myNum = '6';
 
   let numAttempts = 4;
@@ -107,14 +100,13 @@ function questionsix() {
       alert(`The correct answer was ${myNum}`);
     }
   }
-
 }
 
-questionsix();
+questionSix();
 
 // TODO: Add a 7th question with multiple correct answers stored in an array. End after a correct answer or 6 attempts. Display all possible answers after.
 
-function questionseven() {
+function questionSeven() {
   const arr = ['scary spice', 'baby spice', 'ginger spice', 'posh spice', 'sporty spice'];
 
   let spiceAttempts = 6;
@@ -129,10 +121,10 @@ function questionseven() {
       alert('Try again');
     }
   }
-
+  alert(`Accepted answers: ${arr}`);
 }
 
-questionseven();
+questionSeven();
 
 // Nested array example
 
@@ -148,7 +140,7 @@ questionseven();
 //   }
 // }
 
-alert(`Accepted answers: ${arr}`);
+
 
 // TODO: Give a final score to the user.
 
