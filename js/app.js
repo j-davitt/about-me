@@ -77,9 +77,6 @@ function questionFive() {
 
 questionFive();
 
-// TODO: Add a 6th question that takes a numeric input by prompting user to guess a number. alert if too high or too low. 4 opportunities to guess. after 4 chances tell user correct answer.
-
-
 function questionSix() {
   let myNum = '6';
 
@@ -103,8 +100,6 @@ function questionSix() {
 }
 
 questionSix();
-
-// TODO: Add a 7th question with multiple correct answers stored in an array. End after a correct answer or 6 attempts. Display all possible answers after.
 
 function questionSeven() {
   const arr = ['scary spice', 'baby spice', 'ginger spice', 'posh spice', 'sporty spice'];
@@ -140,10 +135,4 @@ questionSeven();
 //   }
 // }
 
-
-
-// TODO: Give a final score to the user.
-
-
 alert(`Thanks for participating ${userName}! You scored ${score} out of 7!`);
-
